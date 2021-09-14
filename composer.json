@@ -1,0 +1,16 @@
+{
+  "autoload": {
+    "psr-4": {
+      "MyApp\\": "src/"
+    }
+  },
+  "require": {
+    "ext-mysqli": "*",
+    "ext-sqlite": "*",
+    "ext-http": "*",
+    "ext-cassandra": "*",
+    "ext-wddx": "*",
+    "ext-simplexml": "*",
+    "ext-dom": "*"
+  }
+}
